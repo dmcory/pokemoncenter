@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @gym.name %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @gym.city_id %>
+</p>
+
+<p>
+  <strong>Leader:</strong>
+  <%= @gym.leader_id %>
+</p>
+
+<p>
+  <strong>Medal thumb:</strong>
+  <%= @gym.medal_thumb %>
+</p>
+
+<%= link_to 'Edit', edit_gym_path(@gym) %> |
+<%= link_to 'Back', gyms_path %>
